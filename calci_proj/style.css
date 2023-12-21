@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: cursive;
+}
+body
+{
+    background-color: rgb(231, 227, 227);
+    height: 100vh;
+    /* This below 3 lines are to move the body in correct center.*/
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.frame
+{
+    height: 550px ;
+    width: 600px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 15px black,5px 5px
+    15px rgb(0, 0, 0);
+}
+.heading
+{
+    text-align: center;
+    font: size 28px;
+    padding: 8px;
+}
+#display
+{
+   border: solid 2px black;
+   background-color: transparent;
+    height: 90px;
+    width: 100%;
+    box-shadow: inset 2px 2px 10px #b4edf4 , inset 2px 2px , 10px #ffffff;
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: right;
+    padding: 10px;
+}
+.btngrp
+{
+    display: flex;
+    justify-content: space-around;/*It will automatically acquire the space.*/
+    padding: 8px;
+}
+.button
+{
+    width: 80px;
+    height: 80px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px black;
+}
+.button:active
+{
+    box-shadow: inset 2px 2px #babeec;
+}
+.button:hover
+{
+    color: white;
+    background-color: palevioletred;
+    cursor: pointer;
+}
